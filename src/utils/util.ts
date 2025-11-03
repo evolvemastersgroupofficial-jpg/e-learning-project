@@ -1,7 +1,4 @@
-const getImagePrefix = () => {
-    return process.env.NODE_ENV === "production"
-        ? "/E-learning/"
-        : "";
+export const getImagePrefix = () => {
+  if (typeof window === "undefined") return ""; 
+  return window.location.origin.includes("localhost") ? "" : "";
 };
-
-export { getImagePrefix };
