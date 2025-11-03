@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: "/",      // for next/font compatibility
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
+  experimental: {
+    typedRoutes: true,
   },
+  // 👇 ADD THIS
+  tailwindConfig: "./tailwind.config.ts",
 };
 
 export default nextConfig;
