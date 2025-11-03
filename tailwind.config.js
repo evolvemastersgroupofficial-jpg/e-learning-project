@@ -1,6 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   darkMode: "class",
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -28,11 +27,9 @@ const config: Config = {
         '75%': '75%',
       },
       backgroundImage: {
-        'newsletter-bg': `url('/images/newsletter/bgFile.png')`,
+        'newsletter-bg': "url('/images/newsletter/bgFile.png')",
       },
     },
   },
   plugins: [],
 };
-
-export default config;

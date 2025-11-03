@@ -4,7 +4,6 @@ const nextConfig = {
     typedRoutes: true,
   },
   // 👇 ADD THIS
-  tailwindConfig: "./tailwind.config.ts",
 };
 
 export default nextConfig;
