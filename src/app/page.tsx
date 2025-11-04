@@ -18,7 +18,6 @@ export default function Home() {
       <Courses />
       <Mentor />
       <Testimonial />
-      <Newsletter />
     </main>
   );
 }
