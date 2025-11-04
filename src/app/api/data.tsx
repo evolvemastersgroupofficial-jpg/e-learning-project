@@ -27,7 +27,10 @@ export const TruestedCompanies: { imgSrc: string }[] = [
     imgSrc: "/images/companies/1.svg"
   },
   {
-    imgSrc: "/images/logo/ellipse.svg"
+    imgSrc: "/images/companies/water.svg"
+  },
+  {
+    imgSrc: "/images/companies/maetro.svg"
   }
   
 ]
@@ -65,25 +68,25 @@ export const courseData: {
       rating: 5,
     },
     {
-      heading: 'We Launch Delia Webflow this Week!',
-      name: "Colt stelle",
-      imgSrc: '/images/courses/courseone.png',
+      heading: 'Leadership & Management Training',
+      name: "for Companies",
+      imgSrc: '/images/courses/coursefour.png',
       students: 150,
       classes: 12,
       rating: 5,
     },
     {
-      heading: 'We Launch Delia Webflow this Week!',
-      name: "Colt stelle",
-      imgSrc: '/images/courses/coursetwo.png',
+      heading: 'Technical / Digital Skills Training',
+      name: "for Companies",
+      imgSrc: '/images/courses/coursefive.png',
       students: 150,
       classes: 12,
       rating: 5,
     },
     {
-      heading: 'We Launch Delia Webflow this Week!',
+      heading: 'Soft Skills & Productivity Training',
       name: "Colt stelle",
-      imgSrc: '/images/courses/coursethree.png',
+      imgSrc: '/images/courses/coursesix.png',
       students: 150,
       classes: 12,
       rating: 4.2,
