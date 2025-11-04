@@ -38,7 +38,6 @@ export const courseData: {
   name: string;
   students: number;
   classes: number;
-  price: number;
   rating: number;
 }[] = [
     {
@@ -47,7 +46,6 @@ export const courseData: {
       imgSrc: '/images/courses/courseone.png',
       students: 150,
       classes: 12,
-      price: 20,
       rating: 4.4,
     },
     {
@@ -56,7 +54,6 @@ export const courseData: {
       imgSrc: '/images/courses/coursetwo.png',
       students: 130,
       classes: 12,
-      price: 20,
       rating: 4.5,
     },
     {
@@ -65,7 +62,6 @@ export const courseData: {
       imgSrc: '/images/courses/coursethree.png',
       students: 120,
       classes: 12,
-      price: 20,
       rating: 5,
     },
     {
@@ -74,7 +70,6 @@ export const courseData: {
       imgSrc: '/images/courses/courseone.png',
       students: 150,
       classes: 12,
-      price: 20,
       rating: 5,
     },
     {
@@ -83,7 +78,6 @@ export const courseData: {
       imgSrc: '/images/courses/coursetwo.png',
       students: 150,
       classes: 12,
-      price: 20,
       rating: 5,
     },
     {
@@ -92,7 +86,6 @@ export const courseData: {
       imgSrc: '/images/courses/coursethree.png',
       students: 150,
       classes: 12,
-      price: 20,
       rating: 4.2,
     },
   ]
