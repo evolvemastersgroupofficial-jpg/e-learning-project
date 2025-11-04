@@ -17,13 +17,13 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center gap-4 mt-4">
-              <Link href="#" className="hover:text-primary text-black text-3xl">
+              <Link href="https://www.facebook.com/share/17Uwojrv4G/" className="hover:text-primary text-black text-3xl">
                 <Icon icon="tabler:brand-facebook" />
               </Link>
-              <Link href="#" className="hover:text-primary text-black text-3xl">
+              <Link href="https://www.instagram.com/evolvemastersgroup?igsh=MXh5bjJoOXVxMTE2cA==" className="hover:text-primary text-black text-3xl">
                 <Icon icon="tabler:brand-instagram" />
               </Link>
-              <Link href="#" className="hover:text-primary text-black text-3xl">
+              <Link href="https://www.linkedin.com/company/evolvemastersgroup/" className="hover:text-primary text-black text-3xl">
                 <Icon icon="tabler:brand-linkedin" />
               </Link>
             </div>
@@ -78,7 +78,7 @@ const Footer = () => {
                 icon="tabler:phone"
                 className="text-primary text-3xl inline-block me-2"
               />
-              <h5 className="text-lg text-black/60">+45 3411-4411</h5>
+              <h5 className="text-lg text-black/60">+201067999957</h5>
             </div>
 
             <div className="flex gap-2 mt-10">
@@ -86,7 +86,7 @@ const Footer = () => {
                 icon="tabler:folder"
                 className="text-primary text-3xl inline-block me-2"
               />
-              <h5 className="text-lg text-black/60">info@gmail.com</h5>
+              <h5 className="text-lg text-black/60">info@evolvemastersgroup.net</h5>
             </div>
           </div>
         </div>
