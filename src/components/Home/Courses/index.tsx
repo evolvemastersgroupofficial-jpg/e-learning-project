@@ -84,7 +84,6 @@ const Courses = () => {
                                                 {renderStars(items.rating)} {/* Dynamic stars */}
                                             </div>
                                         </div>
-                                        <h3 className="text-3xl font-medium">${items.price}</h3>
                                     </div>
                                     <div className="flex justify-between pt-6">
                                         <div className="flex gap-4">
