@@ -25,6 +25,9 @@ export const TruestedCompanies: { imgSrc: string }[] = [
   },
   {
     imgSrc: "/images/companies/1.svg"
+  },
+  {
+    imgSrc: "/images/logo/ellipse.svg"
   }
   
 ]
@@ -39,8 +42,8 @@ export const courseData: {
   rating: number;
 }[] = [
     {
-      heading: 'Full stack modern javascript',
-      name: "Colt stelle",
+      heading: 'Business Development',
+      name: "for Companies",
       imgSrc: '/images/courses/courseone.png',
       students: 150,
       classes: 12,
@@ -48,8 +51,8 @@ export const courseData: {
       rating: 4.4,
     },
     {
-      heading: 'Design system with React programme',
-      name: "Colt stelle",
+      heading: 'How to start your own business',
+      name: "for individuals",
       imgSrc: '/images/courses/coursetwo.png',
       students: 130,
       classes: 12,
@@ -57,8 +60,8 @@ export const courseData: {
       rating: 4.5,
     },
     {
-      heading: 'Design banner with Figma',
-      name: "Colt stelle",
+      heading: 'How to make a successful Strategic Plan',
+      name: "for Companies",
       imgSrc: '/images/courses/coursethree.png',
       students: 120,
       classes: 12,
