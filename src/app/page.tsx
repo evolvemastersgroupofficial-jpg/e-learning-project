@@ -16,8 +16,7 @@ export default function Home() {
       <Hero />
       <Companies />
       <Courses />
-      <Mentor />
-      <Testimonial />
+
     </main>
   );
 }
